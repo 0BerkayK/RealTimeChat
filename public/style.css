@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+  font-size: 23px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: blue;
+}
+
+#chat-wrap {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #232;
+}
+
+#chat-window {
+  height: 400px;
+  overflow-y: auto;
+}
+
+#output p {
+  font-size: 15px;
+  padding: 12px;
+}
+
+#output p:nth-child(even) {
+  background-color: blue;
+}
+
+#feedback p {
+    font-size: 12px;
+    padding: 12px;
+}
+
+#output strong{
+    color: chocolate;
+}
+
+#input {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    border: 0;
+    border-top: 1px solid seagreen;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+#button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: chartreuse;
+    color: #fff;
+    border: 0;
+    border: 0 0 5px 5px;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 17px;
+
+}
